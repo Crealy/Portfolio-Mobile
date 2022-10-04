@@ -1,0 +1,177 @@
+.contenu-contact{
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    margin-bottom: 75px;
+    margin-left: 125px;
+}
+
+#contenu-resc{
+    margin-left:200px;
+}
+
+
+.contenu-contact-form{
+    width: auto;
+    
+}
+
+.contenu-contact-form-2{
+    display: inline-flex;
+}
+
+.circle-contact{
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+    background-color: transparent;
+    border: 3px solid #e5a835;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+
+    background-position-x: 50%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.contenu-contact:hover .circle-contact{
+    background-color: #e5a835;
+}
+
+#email{
+    background-image: url("mail.png");
+}
+
+#locate{
+    background-image: url("locate.png");
+}
+
+.text-contact{
+    color:#e6e6e9;
+    font-size:42px;
+
+    margin-bottom: -10px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+    border-left: 2px solid #e5a835;
+
+}
+
+#email-form,#object-form,#message-form,#submit-form,#nom-form{
+    
+    background-color: rgba(36,36,36,0.6);
+    border-bottom: 2px solid #e5a835;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+
+    border-radius: 0px;
+    font-size: 30px;
+    color : #e6e6e9;
+    padding-left:10px;
+
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+
+#email-form{
+    width: 430px;
+    height: 70px;
+    margin-right: 30px;
+    
+}
+
+#nom-form{
+    width: 300px;
+    height: 70px;
+    margin-right: 30px;
+    
+}
+
+#object-form{
+    width: 90%;
+    height: 70px;
+    
+}
+
+#message-form{
+    width: 90%;
+    padding-bottom: 40%;  
+    margin-bottom: -10px;  
+    
+}
+
+#submit-form{
+    background-color: #242424;
+    height: 70px;
+    width: 45%;
+    transition: all 0.3s ease-in-out;
+}
+
+#submit-form:hover{
+    background-color: #e5a835;
+}
+
+#contact-form{
+    margin-top: 15px;
+    
+}
+
+#title-form{
+    color:#e6e6e9;
+    font-size:19px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 38px;
+    left: 10px;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#full-contact-form{
+
+    margin-left: 50px;
+}
+
+.circle-social{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    background-color: transparent;
+    border: 3px solid #e5a835;
+    transition: all 0.3s ease-in-out;
+    margin-right: 50px;
+
+    
+    background-position-x: 53%;
+    background-position-y: 48%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+#facebook{
+    background-image: url("Facebook.png");
+}
+
+#facebook:hover{
+    background-color: rgba(59, 89, 152, 0.8);
+}
+
+#instagram{
+    background-image: url("Instagram.png");
+}
+
+#instagram:hover{
+    background-color: rgba(221,42,123,0.8);
+}
+
+#gmail{
+    background-image: url("Google.png");
+}
+
+#gmail:hover{
+    background-color: rgba(255, 22, 22, 0.8);
+}

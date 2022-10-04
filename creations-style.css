@@ -1,0 +1,91 @@
+.contenu-projet{
+    width: 100%;
+    height: auto;
+    
+}
+
+.contenu-projet-main{
+    width: 80%;
+    
+    display: inline-flex;
+    background-color: rgba(36,36,36,0.8);
+   
+    border-radius: 10px;
+
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.info-card{
+    width: 120%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.barre-projet{
+    width: 200px;
+    height: 6px;
+    background-color: #e5a835;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+.card-projet{
+    width: 100%;
+    height: 350px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.card-projet:hover{
+    animation: card 2s infinite;
+}
+
+@keyframes card{
+    0%{
+        background-size: 60%;
+    }
+    50%{
+        background-size: 30%;
+        
+    }
+    100%{
+        background-size: 60%;
+    }
+}
+
+
+
+#card1{
+    background-color: rgba(255,197,22,1);
+    background-image: url("design.png");
+}
+
+#card2{
+    background-color: rgba(24,180,10,1);
+    background-image: url("model.png");
+}
+
+#card3{
+    background-color: rgba(241,4,241,1);
+    background-image: url("app.png");
+}
+
+#card4{
+    background-color: rgba(4,138,213,1);
+    background-image: url("fab.png");
+}
+
+#title-projet-card{
+    font-size: 65px;
+    color: #e6e6e6;
+}
