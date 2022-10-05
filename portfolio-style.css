@@ -104,7 +104,7 @@ th, td {
 
 
 .circle{
-    width: 100px;
+    width: 90px;
     height: 90px;
     border-radius: 90px;
     background-color: transparent;
@@ -122,7 +122,7 @@ th, td {
 
 .contenu-skills{
     width: 92%;
-    height: 300px;
+    height: 150px;
     display: inline-flex;
     margin-top: 80px;
     margin-left: 30px;
@@ -140,40 +140,19 @@ th, td {
    
 }
 
-.contenu-skills:hover{
-    transform: rotate(-3deg);
-}
-
-#skills-haut:hover{
-    transform: translateY(-30px);
-}
-
-#skills-bas:hover{
-    transform: translateY(30px);
-}
 
 
 
-.contenu-skills-text{
-    width:800px;
-    height: 120px;
-    margin-left: 45px;
-    
-}
-
-.skills-desc{
-    padding-left: 40px;
-}
 
 .skills-title{
     width: 100%;
     color:#e6e6e9;
     font-size:65px;
     margin-bottom: -10px;
+    margin-left: 25px;
     border-left: 2px solid #e5a835;
     padding-left: 40px;
 }
-
 
 
 .contenu-certf{
