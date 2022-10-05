@@ -92,30 +92,30 @@
 
 
 #card1{
-    background-image: url("designs/Accueil.png") ;
+    background-image: url("Accueil.png") ;
 }
 
 #card2{
-    background-image: url("designs/Profil.png") ;
+    background-image: url("Profil.png") ;
 }
 
 
 #card3{
-    background-image: url("designs/BNF-Home.png") ;
+    background-image: url("BNF-Home.png") ;
 }
 
 #card4{
-    background-image: url("designs/BNF-Friends.png") ;
+    background-image: url("BNF-Friends.png") ;
 }
 
 #card5{
-    background-image: url("designs/BNF-List.png") ;
+    background-image: url("BNF-List.png") ;
 }
 
 #card6{
-    background-image: url("designs/Wallet-Home.png") ;
+    background-image: url("Wallet-Home.png") ;
 }
 
 #card7{
-    background-image: url("designs/Wallet-Login.png") ;
+    background-image: url("Wallet-Login.png") ;
 }
